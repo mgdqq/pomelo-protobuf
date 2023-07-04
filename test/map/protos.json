@@ -1,0 +1,19 @@
+{
+    "onPush": {
+      "message pos": {
+        "required int32 x": 1,
+        "required int32 y": 2
+      },
+      "required string content": 1,
+      "required string topic": 2,
+      "required int32 id": 3,
+      "repeated int32 ary": 4,
+      "map<int32, string> award": 5,
+      "map<int32, pos> poss": 6,
+      "map<int32, map<int32, map<string, string>>> mm": 7,
+      "map<string, string> mss": 8,
+      "map<int32, repeated int32> mary": 9,
+      "map<int32, repeated pos> mrpos": 10,
+      "map<int32, repeated string> mrs": 11
+    }
+  }
